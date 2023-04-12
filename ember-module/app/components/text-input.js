@@ -16,6 +16,7 @@ export default class TextInputComponent extends Component {
       content: value,
     });
     record.save();
+    console.log('record');
     console.log(this.store.peekAll('text-input'));
   }
 }
